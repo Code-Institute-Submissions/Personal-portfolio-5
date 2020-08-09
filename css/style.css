@@ -169,16 +169,39 @@ section.about .social {
 
 /* ------------------------------------------- Meet me*/
 
-/*#times {
-    background-image: url(../img/dublin-city.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}*/
+.section-heading{
+    color: #000;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+    text-transform: uppercase;
+}
 
-#times div {
+
+.section-heading span{
+    color: #bfa15e;
+}
+
+.section-heading + p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: rgb(63, 59, 59);
+    line-height: 1.9; 
+    margin-bottom: 1rem;
+}
+
+.section-heading + p span{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.events {
+    background: rgb(231, 231, 219);
+    height: 600px;
+}
+
+
+.events div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     width: 19%;
@@ -189,8 +212,58 @@ section.about .social {
     text-align: center;
 }
 
-#times div h2 {
+.events div h2 {
     color: #fafafa;
     font-weight: 400;
     margin-bottom: 2rem;
+}
+
+/*----------------------------------------------- offers*/
+
+section.work{
+    background: rgb(238, 229, 177);
+}
+
+
+/*----------------------------------------------- Blog*/
+
+section.blog {
+    background: rgb(196, 194, 177);
+}
+
+section.blog .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    
+}
+
+section.blog .card-wrapper .card{
+    background: #fff;
+}
+
+section.blog .card-wrapper .card .card-content{
+    padding: 2rem;
+}
+
+section.blog .card-wrapper .card .card-content h1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+section.blog .card-wrapper .card .card-content a{
+    color: rgb(83, 79, 79);
+    text-decoration: none;
+}
+
+section.blog .card-wrapper .card .card-content span{
+    color: rgb(233, 227, 227);
+    font-size: 0.8rem;
+}
+
+section.blog .card-wrapper .card .card-content p{
+    font-family: 'Lato', sans-serif;
+    color: rgb(83, 79, 79);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
