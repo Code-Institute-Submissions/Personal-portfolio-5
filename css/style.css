@@ -1,0 +1,23 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+}
+header {
+    background: #141516;
+    height: 800px;
+}
+
+.container {
+    max-width: 1152;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a {
+    color: #FFF;
+    text-decoration: none;
+}
