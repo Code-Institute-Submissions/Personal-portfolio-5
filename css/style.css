@@ -153,9 +153,7 @@ section.about .social {
 }
 
 .social-networks {
-
     text-align: center;
-
 }
 
 .social-networks li {
@@ -167,4 +165,32 @@ section.about .social {
     margin: 1%;
     padding: 5%;
     color: #063f6e;
+}
+
+/* ------------------------------------------- Meet me*/
+
+/*#times {
+    background-image: url(../img/dublin-city.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}*/
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 19%;
+    height: 21rem;
+    margin-left: 4rem;
+    float: left;
+    padding: 3rem 3rem 3rem 3rem;
+    text-align: center;
+}
+
+#times div h2 {
+    color: #fafafa;
+    font-weight: 400;
+    margin-bottom: 2rem;
 }
