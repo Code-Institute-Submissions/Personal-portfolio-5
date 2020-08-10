@@ -10,8 +10,11 @@ body {
     box-sizing: border-box;
     -webkit-font-smotthing:antialiased;
 }
+
 header {
-    background: #161616;
+    background: url("../images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;   
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 92%, 0 100%)
 }
 
@@ -30,7 +33,7 @@ header nav .left a {
 }
 
 header nav .left a:hover {
-    color: #6fdbf3;
+    color: #bfa15e;
 }
 
 header nav {
@@ -63,14 +66,14 @@ header nav .branding {
 }
 
 .btn-primary {
-    background-color: #6fdbf3;
+    background-color: #bfa15e;
     color: rgb(2, 2, 2);
 }
 
 .btn-primary:hover {
     background: transparent;
-    border-color: #6fdbf3;
-    color: #6fdbf3;
+    border-color: #bfa15e;
+    color: #bfa15e;
 }
 
 .hero{
@@ -87,7 +90,7 @@ header nav .branding {
 
 .hero .right h6 {
     font-size: 1.6rem;
-    color: #6fdbf3;
+    color: #fff;
     margin-bottom: 0.5rem;
     margin-top: 8rem;
 }
