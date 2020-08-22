@@ -1,6 +1,6 @@
 
 body {
-    /*height: 6000px;*/
+    height: 6000px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: url("../images/bg.jpg");
+    background: rgb(51, 51, 49);
     background-position: center;
     background-repeat: no-repeat;   
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 92%, 0 100%)
