@@ -250,6 +250,14 @@ section.blog .card-wrapper .card{
     background: #fff;
 }
 
+section.blog img{
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+
+}
+
 section.blog .card-wrapper .card .card-content{
     padding: 2rem;
 }
@@ -257,16 +265,19 @@ section.blog .card-wrapper .card .card-content{
 section.blog .card-wrapper .card .card-content h1{
     font-size: 1rem;
     font-weight: 600;
+    padding: 0.4rem 0.7rem ;
 }
 
 section.blog .card-wrapper .card .card-content a{
     color: rgb(83, 79, 79);
     text-decoration: none;
+    padding: 0.4rem 0.7rem;
 }
 
 section.blog .card-wrapper .card .card-content span{
     color: rgb(233, 227, 227);
     font-size: 0.8rem;
+    padding: 0.4rem 0.7rem;
 }
 
 section.blog .card-wrapper .card .card-content p{
@@ -274,7 +285,9 @@ section.blog .card-wrapper .card .card-content p{
     color: rgb(83, 79, 79);
     margin-top: 1rem;
     margin-bottom: 1rem;
+    padding: 0.4rem 0.7rem;
 }
+
 
 /*----------------------------------------------- Contact Me*/
 
@@ -330,4 +343,36 @@ section.contact .input-wrap-2 textarea{
 
 section.contact .btn-wrapper{
     text-align: center;
+}
+
+
+/* -------------------------------------------------- Blog*/
+
+section{
+    padding: 6rem 0;
+}
+
+section.blog-p .blog-p-me-img{
+    height: 450px;
+}
+
+section.blog-p h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+section.blog-p h1 span{
+    color: #E84610;
+}
+
+section.blog-p h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+section.blog-p p{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.9;
 }
