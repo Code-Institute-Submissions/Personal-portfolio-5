@@ -103,7 +103,7 @@ header nav .branding {
 }
 
 .hero .right h1 span {
-    color: #e9e78e;
+    color: #E84610;
 }
 
 .hero .right p{
@@ -140,7 +140,7 @@ section.about h1{
 }
 
 section.about h1 span{
-    color: #bfa15e;
+    color: #E84610;
 }
 
 section.about h3{
@@ -186,7 +186,7 @@ section.about .social {
 
 
 .section-heading span{
-    color: #bfa15e;
+    color: #E84610;
 }
 
 .section-heading + p{
@@ -236,6 +236,7 @@ section.work{
 
 section.blog {
     background: rgb(196, 194, 177);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 92%, 0 100%)
 }
 
 section.blog .card-wrapper{
