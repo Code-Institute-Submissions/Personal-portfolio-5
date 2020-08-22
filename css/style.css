@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: rgb(51, 51, 49);
+    background: rgb(7, 7, 0);
     background-position: center;
     background-repeat: no-repeat;   
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 92%, 0 100%)
@@ -33,7 +33,7 @@ header nav .left a {
 }
 
 header nav .left a:hover {
-    color: #bfa15e;
+    color: #e84610;
 }
 
 header nav {
@@ -66,14 +66,14 @@ header nav .branding {
 }
 
 .btn-primary {
-    background-color: #bfa15e;
+    background-color: #b44e2b;
     color: rgb(2, 2, 2);
 }
 
 .btn-primary:hover {
     background: transparent;
-    border-color: #bfa15e;
-    color: #bfa15e;
+    border-color: #e84610;
+    color: #e84610;
 }
 
 .hero{
@@ -103,7 +103,7 @@ header nav .branding {
 }
 
 .hero .right h1 span {
-    color: #bfa15e;
+    color: #e9e78e;
 }
 
 .hero .right p{
