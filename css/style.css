@@ -1,6 +1,6 @@
 
 body {
-    height: 6000px;
+   
     font-family: 'Poppins', sans-serif;
 }
 
@@ -301,8 +301,11 @@ section.contact .card-wrapper .card{
     text-align: center;
 }
 
+
+
 section.contact .card-wrapper .card img{
     margin-bottom: 1.6rem;
+    width: 60px;
 }
 
 

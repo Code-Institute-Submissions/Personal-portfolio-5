@@ -68,8 +68,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
-Media
+Most of the text in this website i copied from https://listenerswithoutborders.org/ an orgnization where i am active from last 6 years.
+
 The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+https://unsplash.com/s/photos/coaching
+https://uxwing.com/ 
+
+I received inspiration for this project from https://www.craigwhitecoaching.com
