@@ -454,3 +454,40 @@ section.blog-p p{
     font-family: 'Lato', sans-serif;
     line-height: 1.9;
 }
+
+
+/*--------------------------------------------------Mobile and Table First Use*/
+
+@media (min-width: 576px){
+    .container {
+        max-width: 540;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960;
+    }
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1152;
+    }
+}
+
+@media (max-width: 1024px) {
+    header #main-nav{
+        display: none;
+    }
+    .hero .left img{
+        width: 150;
+    }
+}
+
