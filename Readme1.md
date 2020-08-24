@@ -25,14 +25,16 @@ section only Blog section will have sperate page that while user click on menu o
 
 
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+About me section will help user to know me better and who i am this is very important that they get to know me before looking for my offers.
+Offering section will give user inforation about what i offer in fields of coaching and seminars.
+Events section will give user to have one hour free consult or coaching session with me.
+Blog section will speak more about my international activities and my tought when i meet and work with different peoples.
+contact section will help user to submite his or her contact for me to have give me a call or email.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 Features Left to Implement
 Another feature idea
+
 Technologies Used
 In this website i have only used HTML5 and CSS 3. 
 
