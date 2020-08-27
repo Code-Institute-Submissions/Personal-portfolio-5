@@ -23,6 +23,7 @@ header {
     padding: 0 15px;
     margin: 0 7rem;
 }
+                
 
 header nav .left a {
     color: #FFF;
@@ -458,36 +459,56 @@ section.blog-p p{
 
 /*--------------------------------------------------Mobile and Table First Use*/
 
-@media (min-width: 576px){
-    .container {
-        max-width: 540;
-    }
+#toggle {
+    display: none;
 }
 
-@media (min-width: 768px){
-    .container {
-        max-width: 720;
-    }
+.togglearea {
+    background-color: rgb(7, 7, 0);
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
-@media (min-width: 992px){
-    .container {
-        max-width: 960;
-    }
+.togglearea label {
+    background-color: white;
+    height: 45px;
+    width: 50px;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-@media (min-width: 1200px){
-    .container {
-        max-width: 1152;
-    }
+.togglearea label span {
+    background-color: black;
+    height: 4px;
+    width: 70%;
+    margin: 3px 0px;
 }
 
-@media (max-width: 1024px) {
-    header #main-nav{
+.togglearea {
+    display: none;
+}
+
+@media screen and (max-width: 700px){
+
+    header #main-nav {
+        flex-direction: column;
         display: none;
     }
-    .hero .left img{
-        width: 150;
+
+    #toggle:checked + header #main-nav {
+        display: flex;
+    } 
+
+    .togglearea {
+        display: flex;
     }
 }
 
