@@ -181,7 +181,7 @@ section.about .social {
 
 .offer {
     background: rgb(231, 231, 219);
-    height: 750px;
+    height: 650px;
     margin-top: 20px;
 }
 
@@ -332,8 +332,6 @@ section.blog img{
     height: 100%;
     width: 100%;
     padding: 1rem;
-}
-
 }
 
 section.blog .card-wrapper .card .card-content{
@@ -506,6 +504,10 @@ section.blog-p p{
         justify-content: center;
     }
 
+    .btn {
+        display: none;
+    }
+
     #toggle:checked + header #main-nav {
         display: flex;
     } 
@@ -552,29 +554,41 @@ section.blog-p p{
     .center-about img {
         display: none;
     }
+
+    hr {
+        display: none;
+    }
+
+    .left-about-heading {
+    width: 82%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 39px;
+    }
+
+    .left-about-heading p {
+    text-align: left;
+    width: 350px;
+    float: left;
+   }
+
+  .right-about-heading {
+    width: 82%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 39px;
+    }
+
+   .right-about-heading p {
+    text-align: right;
+    width: 350px;
+    float: right;
+    }
+
+    
 }
 
-@media screen and (min-width: 576px){
-    .container {
-        max-width: 540px;
-    }
-}
-
-@media screen and (min-width: 768px){
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media screen and (min-width: 992px){
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    .container {
-        max-width: 1152px;
-    }
 }
 
