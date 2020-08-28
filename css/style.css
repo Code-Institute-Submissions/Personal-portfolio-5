@@ -445,12 +445,6 @@ section.blog-p h1 span{
     color: #E84610;
 }
 
-section.blog-p h3{
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    font-weight: 400;
-}
-
 section.blog-p p{
     font-family: 'Lato', sans-serif;
     line-height: 1.9;
@@ -608,19 +602,23 @@ section.blog-p p{
         }
 
         section.blog-p .blog-p-me-img {
-            width: 342px;
-            padding: 0rem 2rem 0rem 0rem;
-        }
-
-
-        section.blog-p h3 {
-            font-size: 1rem;
-            margin: 0rem -3rem 4rem 0rem;
+            width: 445px;
+            padding: 1rem 0rem;
+            margin-top: 5rem;
         }
 
         section.blog-p p {
             line-height: 1.6;
-            margin: 0rem -3rem 4rem 0rem;
+            margin: 0rem -3rem -2rem 1rem;
+            width: 121%;
+        }
+
+        section.blog-p h1{
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            font-weight: 400;
+            font-style: bold;
+            font-size: large;
         }
 
 }
