@@ -587,8 +587,25 @@ section.blog-p p{
     float: right;
     }
 
-    
-}
+    .events {
+        height: 770px;
+    }
+
+     .events div {
+        color: #fafafa;
+        background-color: rgba(0, 0, 0, .6);
+        width: 39%;
+        height: 17rem;
+        margin-left: 4rem;
+        margin-bottom: 2rem;
+        float: left;
+        padding: 1rem -1rem;
+        text-align: center;
+    }   
+
+    section.blog .card-wrapper .card .card-content {
+        padding: 0rem;
+    }
 
 }
 
