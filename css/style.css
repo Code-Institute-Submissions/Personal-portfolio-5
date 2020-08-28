@@ -603,9 +603,25 @@ section.blog-p p{
         text-align: center;
     }   
 
-    section.blog .card-wrapper .card .card-content {
+        section.blog .card-wrapper .card .card-content {
         padding: 0rem;
-    }
+        }
+
+        section.blog-p .blog-p-me-img {
+            width: 342px;
+            padding: 0rem 2rem 0rem 0rem;
+        }
+
+
+        section.blog-p h3 {
+            font-size: 1rem;
+            margin: 0rem -3rem 4rem 0rem;
+        }
+
+        section.blog-p p {
+            line-height: 1.6;
+            margin: 0rem -3rem 4rem 0rem;
+        }
 
 }
 
