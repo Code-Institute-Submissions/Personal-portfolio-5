@@ -82,7 +82,7 @@ header nav .branding {
 }
 
 .hero .left img{
-    width: 400px;
+    width: 500px;
 }
 
 .hero .right {
@@ -94,13 +94,14 @@ header nav .branding {
     color: #fff;
     margin-bottom: 0.5rem;
     margin-top: 8rem;
+    padding-left: 1.8rem;
 }
 
 .hero .right h1 {
     font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 2rem;
-    
+    padding-left: 1.8rem; 
 }
 
 .hero .right h1 span {
@@ -110,6 +111,7 @@ header nav .branding {
 .hero .right p{
     line-height: 1.9;
     margin-bottom: 2rem;
+    padding-left: 1.8rem;
 }
 
 .flex-1{
@@ -179,7 +181,7 @@ section.about .social {
 
 .offer {
     background: rgb(231, 231, 219);
-    height: 700px;
+    height: 750px;
     margin-top: 20px;
 }
 
@@ -496,7 +498,7 @@ section.blog-p p{
     display: none;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1393px){
 
     header #main-nav {
         flex-direction: column;
@@ -513,12 +515,25 @@ section.blog-p p{
     }
 
     .hero .left img {
-        width: 300px;
-        padding-right: 3rem;
+        width: 342px;
+        padding: 0rem 2rem 0rem 0rem;
+    }
+
+    .hero .right h6 {
+        font-size: 0.8;
+        color: #fff;
+        margin-bottom: 0.5rem;
+        margin-top: 3rem;
     }
 
     .hero .right h1{
-        font-size: 1.5rem;
+        font-size: 1rem;
+        margin: 0rem -3rem 4rem 0rem;
+    }
+
+    .hero .right p {
+        line-height: 1.6;
+        margin: 0rem -3rem 4rem 0rem;
     }
     
     .hero {
@@ -532,8 +547,11 @@ section.blog-p p{
     section.about .about-me-img{
     height: 360px;
     padding: 2rem 2rem;
+    }
 
-}
+    .center-about img {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 576px){
