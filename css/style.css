@@ -678,6 +678,38 @@ section.blog-p p{
 
     section.about p {
         width: 300px;
+        padding-bottom: 2rem;
+    }
+
+    section {
+    padding: 1rem 0rem;
+    }
+
+    .events div  {
+        width: 74%;
+        height: 15rem;
+        margin-left: 3rem;
+    }
+
+    .events {
+        height: 1250px;
+    }
+
+    .container{
+        margin: 0rem;
+        flex-direction: column;
+    }
+
+    section.blog {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%);
+    }
+
+    section.contact .card-wrapper {
+        grid-template-columns: repeat(1,1fr);
+    } 
+
+    section.contact input {
+        padding: -0.5rem;
     }
 
 }
