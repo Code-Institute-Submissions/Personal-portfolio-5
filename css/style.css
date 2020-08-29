@@ -490,7 +490,7 @@ section.blog-p p{
     display: none;
 }
 
-@media screen and (max-width: 1393px){
+@media screen and (max-width: 1024px){
 
     header #main-nav {
         flex-direction: column;
@@ -597,6 +597,16 @@ section.blog-p p{
         text-align: center;
     }   
 
+
+    section.blog .card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }   
+
+
+    section.blog {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 97%, 0 100%);
+    }
+
         section.blog .card-wrapper .card .card-content {
         padding: 0rem;
         }
@@ -622,4 +632,56 @@ section.blog-p p{
         }
 
 }
+
+
+
+@media screen and  (max-width: 576px){
+    .hero {
+        flex-direction: column;
+    }
+
+    header {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 95%, 0 100%);
+    }
+
+    hero .right {
+        position: absolute;
+        top: 260px;
+        padding: 0 1 rem; 
+    }
+
+    .hero .right h6 {
+        margin-top: 0rem 3rem 0rem 1rem;
+    }
+
+    .hero .right h1 {
+        padding: 0rem 3rem 0rem 1rem;
+    }
+
+    .hero .right p {
+        padding: 0rem 3rem 0rem 1rem;
+         width: 400px;
+    }
+
+    .hero .left {
+        margin-top: -5rem;
+        margin-right: -2rem;
+    }
+
+    .about-inner-wrap {
+        flex-direction: column;
+    }
+
+    .about .right {
+        text-align: center;
+    }
+
+    section.about p {
+        width: 300px;
+    }
+
+}
+
+
+
 
