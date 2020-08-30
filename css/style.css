@@ -339,6 +339,7 @@ section.blog .card-wrapper .card .card-content h1{
     font-size: 1rem;
     font-weight: 600;
     padding: 0.4rem 0.7rem;
+    
 }
 
 section.blog .card-wrapper .card .card-content a{
@@ -353,11 +354,18 @@ section.blog .card-wrapper .card .card-content span{
     padding: 0.4rem 0.7rem;
 }
 
+section.blog .card-wrapper .card .card-content span {
+    color: rgb(83, 79, 79);
+    font-size: smaller;
+    float: left;
+}
+
 section.blog .card-wrapper .card .card-content p{
     font-family: 'Lato', sans-serif;
     color: rgb(83, 79, 79);
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-align: left;
     
 }
 
@@ -541,11 +549,17 @@ section.blog-p p{
     height: 360px;
     padding: 2rem 2rem;
     }
+    
+    section.service .card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 7rem;
+        grid-row-gap: 7rem;
+    }
 
-    
-    
-    
-
+     section.service .card-wrapper .card {
+        padding-top: 14rem;
+    }
 
 
 
@@ -577,6 +591,10 @@ section.blog-p p{
 
         section.blog .card-wrapper .card .card-content {
         padding: 0rem;
+        }
+
+        section.blog .card-wrapper .card .card-content p {
+            padding-left: 1.2rem;
         }
 
         section.blog-p .blog-p-me-img {
@@ -665,6 +683,10 @@ section.blog-p p{
     .container{
         margin: 0rem;
         flex-direction: column;
+    }
+
+    section.service .card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     section.blog {
