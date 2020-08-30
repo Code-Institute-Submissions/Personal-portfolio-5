@@ -634,7 +634,6 @@ section.blog-p p{
 }
 
 
-
 @media screen and  (max-width: 576px){
     .hero {
         flex-direction: column;
@@ -712,6 +711,28 @@ section.blog-p p{
         padding: -0.5rem;
     }
 
+    section.blog-p p {
+        margin: 0rem;
+        width: 100%;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+    
+    .right-about-heading h2,
+    .left-about-heading h2 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .right-about-heading p,
+    .left-about-heading p {
+        text-align: center;
+        padding: 0 20 0 20;
+    }
 }
 
 
