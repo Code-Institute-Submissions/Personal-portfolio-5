@@ -7,16 +7,17 @@ The project will be update during the course till i finished the total full stoc
 --Essentially, this part is your sales pitch.
 
 UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This is a Portfolio website for a life and buiness coach whom trying to interduce his courses and events for the clints or user whom wants
+to come to him. the website is more focusing on his interduction, events and courses for sale.
+
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+Mokap in foldar named mokap 
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 Features
 
-The project will has Home , About Ali , Events , Offerings and Ali's blog.
+The project  has Home , About Ali , Events , Offerings and Ali's blog.
 The Home page will have all other parts information and when use click on each meanu part that will jump and take you on the specific
 About Ali section will describe and present Ali background and professionality.
 Events section will give users information about free weekly events that they can test to meet and have one hour free coach session.
@@ -54,12 +55,17 @@ Try to submit the form with an invalid email address and verify that a relevant 
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I really had alot of problem with mobile and ipad first use section it was really different from 
+other part my work i an say i have used youtube, google and CSS school website in order to find 
+many thing and setup it again and again. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+i am not going to pest any codes here but i can say that it made my crazy but i am happy to fnish the project.
+
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+As part of project requirment i have created mokap and start coding on Githup/gitpod i have start
+with HTML and CSS coding on computer screen base and then put media section for ipad and mobile first use.
+
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 
